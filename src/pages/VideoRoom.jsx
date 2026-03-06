@@ -19,7 +19,7 @@ import RatingModal from '../components/rating/RatingModal';
 import toast from 'react-hot-toast';
 
 // Socket.IO server URL
-const SOCKET_URL = import.meta.env.VITE_SOCKET_URL || 'http://localhost:5000';
+const SOCKET_URL = 'https://skillswap-backend-1-pp5y.onrender.com';
 
 export default function VideoRoom() {
   const { sessionId } = useParams();
